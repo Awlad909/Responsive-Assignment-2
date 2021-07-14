@@ -1,0 +1,339 @@
+/* Top players style */
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* common styles or utilities */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+/* -----------Top-banner------------ */
+
+.banner{
+   display: flex;
+   flex-direction: column;
+    width: 100%;
+    height: 677px;
+    background: #2D25A0;
+}
+
+.banner2 img{
+    width: 556.01px;
+    height: 438px;
+    margin-left: 743px;
+    bottom: 400px;
+    position: relative;
+}
+
+
+
+.title h3{
+    width: 485px;
+    height: 230px;
+    color: #FFFFFF;
+    font-size: 64px;
+    margin-left: 156px;
+    margin-top: 207px;
+}
+
+#button{
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    font-size: 16px;
+    margin-left: 156px;
+    margin-top: 27px;
+    border: none;
+}
+
+
+#button:hover{background-color:#3dbafd; color:blue}
+
+
+
+.container{
+    max-width: 1400px;
+    background: #FFFFFF;
+    margin-top: 85px;
+    
+}
+
+.players{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap:30px;
+   grid-row-gap:27px;
+   margin-left: 180px;
+ 
+}
+
+
+.player{
+    background: #FFFFFF;
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+}
+
+
+.player:hover{
+    transform: translateY(-5px);
+    background:#3dbafd
+}
+
+.player img{
+    width: 300px;
+    height: 256px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+
+}
+
+.player h3, p{
+    position: relative;
+    left: 15px;  
+}
+
+.player h3{
+    color: #18191F;
+    font-size: 28px;
+    
+}
+
+.player p{
+    color: #6C6C6C;
+    font-size: 16px;
+    
+}
+
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+
+/* ----------play-match---------- */
+
+
+.play-match img {
+    width: 567px;
+    height: 427px;
+    bottom: 585px;
+    left: 672px;
+    margin-left: 66px;
+    position: relative;
+    bottom: 660px;
+}
+
+.pragraph h6{
+    width: 469px;
+    height: 309px;
+    font-size: 48px;
+    color: #0A0826;
+    margin-left: 182px;
+    margin-top: 224px;
+}
+
+.pragraph p {
+    width: 404px;
+    height: 113px;
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-left: 168px;
+    position: relative;
+    bottom: 256px;
+}
+
+#button1 {
+    width: 172px;
+    height: 44px;
+    background: #E02C6D;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+    margin-top: 24px;
+    margin-left: 182px;
+    position: relative;
+    bottom: 285px;
+}
+
+#button1:hover{background-color:#3dbafd; color:blue}
+
+
+/* ----------------Logo and Icon Design----------------- */
+
+.logo {
+    width: 484px;
+    height: 213px;
+    margin-top: 217px;
+    margin-left: 240px;
+    position: relative;
+    bottom: 700px;
+}
+
+.icon{
+    width: 190px;
+    height: 32px;
+    margin-left: 590px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 700px;  
+}
+i.fab, .fa {
+    background: #969BAB;
+    margin: 14px;
+}
+
+.icon:hover i.fab, .fa{
+    background-color: #3dbafd;  
+}
+
+
+/* --------footer-Design----------- */
+
+
+#football{
+    color: #000000;
+    font-size: 18px;
+    margin-left: 570px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 700px;
+}
+
+
+
+
+.footer1 {
+    background: #000000da;
+    max-width: 1300px;
+    height: 600px;
+    position: relative;
+    bottom: 600px;
+}
+
+
+.nav-menu ul {
+    list-style: none;
+}
+
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #716f6f;
+}
+
+.nav-menu li a:hover{color: #E02C6D;;}
+
+.nav-menu li {
+    padding: 10px;
+    position: relative;
+    top: 40px;
+}
+
+
+.welcome {
+    color: #716f6f;
+    position: relative;
+    left: 450px;
+    top: -195px;
+    border-bottom: 1px solid #716f6f;
+    width: 280px;
+}
+
+
+
+.discription {
+    color: #716f6f;
+    width: 352px;
+    position: relative;
+    left: 438px;
+    top: -180px;
+}
+
+.discription:hover{
+    text-decoration: underline;
+    color: #E02C6D;
+
+}
+
+.myself {
+    color: #E02C6D;
+    position: relative;
+    bottom: 88px;
+    left: 50px;
+}
+
+hr {
+    color: #716f6f;
+    position: relative;
+    bottom: 120px;
+    width: 1230px;
+}
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+/* media Queries */
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player{
+        flex-direction: column;
+    }
+
+    
+    
+}
+
+
+
+
+
+/* tablet devices */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    
+    .container{
+        width:100%;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player{
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
+    
+}
+
+
